@@ -14,6 +14,7 @@ Esempi per calcolo del fattoriale mediante procedimento ricorsivo:
 
 Esempio in C:
 
+        #include <stdio.h>
         double fattoriale (double x)
         {
           if (x>0)
@@ -45,8 +46,8 @@ Esempio in C:
             else
               if (x==0)
                 return 1;
-            else
-              return -1;					//Non è possibile fare il fattoriale di un numero negativo
+              else
+                return -1;					//Non è possibile fare il fattoriale di un numero negativo
           }
     
           public static void main(String []args){
